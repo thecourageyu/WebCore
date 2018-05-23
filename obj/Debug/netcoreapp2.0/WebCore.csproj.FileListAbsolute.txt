@@ -1,0 +1,11 @@
+/Users/yuzhe/CODE/WebCore/bin/Debug/netcoreapp2.0/WebCore.deps.json
+/Users/yuzhe/CODE/WebCore/bin/Debug/netcoreapp2.0/WebCore.runtimeconfig.json
+/Users/yuzhe/CODE/WebCore/bin/Debug/netcoreapp2.0/WebCore.runtimeconfig.dev.json
+/Users/yuzhe/CODE/WebCore/bin/Debug/netcoreapp2.0/WebCore.dll
+/Users/yuzhe/CODE/WebCore/bin/Debug/netcoreapp2.0/WebCore.pdb
+/Users/yuzhe/CODE/WebCore/obj/Debug/netcoreapp2.0/WebCore.csprojAssemblyReference.cache
+/Users/yuzhe/CODE/WebCore/obj/Debug/netcoreapp2.0/WebCore.csproj.CoreCompileInputs.cache
+/Users/yuzhe/CODE/WebCore/obj/Debug/netcoreapp2.0/WebCore.AssemblyInfoInputs.cache
+/Users/yuzhe/CODE/WebCore/obj/Debug/netcoreapp2.0/WebCore.AssemblyInfo.cs
+/Users/yuzhe/CODE/WebCore/obj/Debug/netcoreapp2.0/WebCore.dll
+/Users/yuzhe/CODE/WebCore/obj/Debug/netcoreapp2.0/WebCore.pdb
