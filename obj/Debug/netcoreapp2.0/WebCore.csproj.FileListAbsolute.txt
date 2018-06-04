@@ -9,3 +9,14 @@
 /Users/yuzhe/CODE/WebCore/obj/Debug/netcoreapp2.0/WebCore.AssemblyInfo.cs
 /Users/yuzhe/CODE/WebCore/obj/Debug/netcoreapp2.0/WebCore.dll
 /Users/yuzhe/CODE/WebCore/obj/Debug/netcoreapp2.0/WebCore.pdb
+E:\CODE\WebCore\bin\Debug\netcoreapp2.0\WebCore.deps.json
+E:\CODE\WebCore\bin\Debug\netcoreapp2.0\WebCore.runtimeconfig.json
+E:\CODE\WebCore\bin\Debug\netcoreapp2.0\WebCore.runtimeconfig.dev.json
+E:\CODE\WebCore\bin\Debug\netcoreapp2.0\WebCore.dll
+E:\CODE\WebCore\bin\Debug\netcoreapp2.0\WebCore.pdb
+E:\CODE\WebCore\obj\Debug\netcoreapp2.0\WebCore.csprojAssemblyReference.cache
+E:\CODE\WebCore\obj\Debug\netcoreapp2.0\WebCore.csproj.CoreCompileInputs.cache
+E:\CODE\WebCore\obj\Debug\netcoreapp2.0\WebCore.AssemblyInfoInputs.cache
+E:\CODE\WebCore\obj\Debug\netcoreapp2.0\WebCore.AssemblyInfo.cs
+E:\CODE\WebCore\obj\Debug\netcoreapp2.0\WebCore.dll
+E:\CODE\WebCore\obj\Debug\netcoreapp2.0\WebCore.pdb

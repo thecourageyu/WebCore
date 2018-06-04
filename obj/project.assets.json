@@ -12662,28 +12662,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/yuzhe/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\YuZhe\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yuzhe/CODE/WebCore/WebCore.csproj",
+      "projectUniqueName": "E:\\CODE\\WebCore\\WebCore.csproj",
       "projectName": "WebCore",
-      "projectPath": "/Users/yuzhe/CODE/WebCore/WebCore.csproj",
-      "packagesPath": "/Users/yuzhe/.nuget/packages/",
-      "outputPath": "/Users/yuzhe/CODE/WebCore/obj/",
+      "projectPath": "E:\\CODE\\WebCore\\WebCore.csproj",
+      "packagesPath": "C:\\Users\\YuZhe\\.nuget\\packages\\",
+      "outputPath": "E:\\CODE\\WebCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/yuzhe/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\YuZhe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
