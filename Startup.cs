@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -43,6 +44,7 @@ namespace WebCore
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
             services.AddRouting();
             Program.Output("Startup.ConfigureServices - Called");
         }
@@ -51,7 +53,9 @@ namespace WebCore
         public void Configure(IApplicationBuilder app, IApplicationLifetime appLifetime)
         {
 
-            app.UseDefaultFiles();
+            app.UseMvcWithDefaultRoute(); // MVC
+
+            /* app.UseDefaultFiles();
             app.UseStaticFiles();
 
             var defaultRouteHandler = new RouteHandler(context =>
@@ -95,7 +99,12 @@ namespace WebCore
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("Hello World!");
-            });
+            }); */
+
+            app.Run(async (context) =>
+            {
+                await context.Response.WriteAsync("Hello World!");
+            }); 
 
             // For trigger stop WebHost
 /*             var thread = new Thread(new ThreadStart(() =>
