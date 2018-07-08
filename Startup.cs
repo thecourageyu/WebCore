@@ -45,7 +45,7 @@ namespace WebCore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddRouting();
+            //services.AddRouting();
             Program.Output("Startup.ConfigureServices - Called");
         }
 
@@ -54,8 +54,8 @@ namespace WebCore
         {
 
             app.UseMvcWithDefaultRoute(); // MVC
-
-            /* app.UseDefaultFiles();
+/*           
+            app.UseDefaultFiles();
             app.UseStaticFiles();
 
             var defaultRouteHandler = new RouteHandler(context =>
@@ -101,10 +101,10 @@ namespace WebCore
                 await context.Response.WriteAsync("Hello World!");
             }); */
 
-            app.Run(async (context) =>
+            /*app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("Hello World!");
-            }); 
+            });*/ 
 
             // For trigger stop WebHost
 /*             var thread = new Thread(new ThreadStart(() =>
